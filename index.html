@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8" />
+	<title> Start Page</title>
+
+<style type="text/css">
+@charset "utf-8"
+/*
+	Design on V2EX Start Page 
+*/
+
+html {
+	height: 100%;
+}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "STHeiti";
+	background-color: #e2e2e2;
+	min-width: 900px;
+	background-image: url("bg.png");
+}
+
+a:link, a:visited, a:active {
+	color: #1c7fdb;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #1785eb;
+	text-decoration: underline;
+}
+
+a.orange:link, a.orange:visited, a.orange:active {
+	color: #ff9900;
+	text-decoration: none;
+}
+
+a.orange:hover {
+	color: #e18700;
+	text-decoration: underline;
+}
+
+/* IDs */
+
+#Root {
+	width: 800px;
+	margin: 30px auto 0px auto;
+	background-color: #fff;
+	background-image: url("w.png");
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 2px solid rgba(0,0,0,0.05);
+	padding: 10px;
+	font-size: 15px;
+	-webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.6);
+	-moz-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.6);
+}
+
+
+
+.sep {
+	margin: 10px 0px 10px 0px;
+	border-top: 1px solid #f0f0f0;
+}
+
+
+.column {
+	float: left;
+	font-size: 12px;
+	margin-right: 10px;
+	background-color: #f9f9f9;
+	padding: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.column_title {
+	color: #ccc;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.clear {
+	clear: both;
+}
+
+ul.nav {
+	padding: 0px;
+	margin: 6px 0px 0px 0px;
+	list-style: none;
+}
+
+ul.nav li {
+	padding: 4px 0px 0px 0px;
+	font-size: 14px;
+}
+
+.sl {
+	padding: 3px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	width: 400px;
+	font-size: 16px;
+	color: #000;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	font-family: "Panic Sans", Luxi Mono, "Courier New", Monaco;
+}
+
+.olive {
+	color: #3b3;
+}
+
+</style>
+	
+</head>
+<body>
+	<div id="Root">
+		<div style="float: right"> 
+			<a href="https://www.google.com/" target="_blank">Google</a>&nbsp;&nbsp; 
+			<a href="https://mail.google.com/" target="_blank">Gmail</a>&nbsp;&nbsp; 
+			<a href="https://www.google.com/reader" target="_blank">Reader</a>&nbsp;&nbsp;
+			<a href="https://groups.google.com/forum/#!overview" target="_blank">Groups</a>&nbsp;&nbsp; 
+			<a href=""></a>
+		</div>
+
+		<strong style="color: #999"> Start Page</strong>
+
+		<div class="sep"></div>
+
+		<div class="column">
+			<div class="column_title">TECHNOLOGY</div>
+			<ul class="nav">
+				<li><a href="http://www.v2ex.com/" target="_blank">V2EX</a></li>
+				<li><a href="http://www.github.com/" target="_blank">GitHub</a></li>
+				<li><a href="http://stackoverflow.com/" target="_blank">StackOverflow</a></li>
+				<li><a href="http://www.zhihu.com" target="_blank">知乎</a></li>
+				<li><a href="http://www.cnblogs.com/" target="_blank">博客园</a></li>
+			</ul>
+		</div>
+
+
+		<div class="column">
+			<div class="column_title">PYTHON </div>
+			<ul class="nav">
+				<li><a href="http://www.python.org/" target="_blank">Python</a></li>
+				<li><a href="http://wiki.woodpecker.org.cn/moin" target="_blank">啄木鸟社区</a></li>
+				<li><a href="https://www.djangoproject.com/" target="_blank">Django</a></li>
+				<li><a href="http://code.activestate.com/recipes/langs/python/" target="_blank">CookBook</a></li>
+				<li><a href="http://www.pythonchallenge.com/" target="_blank">Challenge</a></li>
+
+			</ul>
+		</div>
+		
+		<div class="column">
+			<div class="column_title">STUDY</div>
+			<ul class="nav">
+				<li><a href="http://www.w3school.com.cn/" target="_blank">w3school</a></li>
+			    <li><a href="http://book.42qu.com/" target="_blank">42区漫游</a></li>
+				<li><a href="http://sae.sina.com.cn/?m=myapp" target="_blank">SAE云平台</a></li>
+				<br/>
+				<br/>
+				<br/>
+
+
+			</ul>
+		</div>
+		<div class="column">
+			<div class="column_title">CHINESE</div>
+			<ul class="nav">
+				<li><a href="http://bbs.hgdonline.net/" target="_blank">南湖呓语&nbsp;&nbsp;</a></li>
+				<li><a href="http://weibo.com/" target="_blank">新浪微博</a></li>
+				<li><a href="http://www.qiushibaike.com/" target="_blank">糗事百科</a></li>
+				<li><a href="http://www.hao123.com/" target="_blank">网址导航</a></li>
+				<br/>
+
+			</ul>
+		</div>
+
+		<div class="column">
+			<div class="column_title">WEB</div>
+			<ul class="nav">
+				<li><a href="http://www.douban.com/" target="_blank">豆瓣网</a></li>
+			    <li><a href="http://www.guokr.com/" target="_blank">果壳网</a></li>
+				<li><a href="http://www.lofter.com/" target="_blank">LOFTER&nbsp;&nbsp;</a></li>
+				<br/>
+				<br/>
+				<br/>
+			</ul>
+		</div>
+
+
+		
+		
+		<div class="column">
+			<div class="column_title">VIDEOS</div>
+			<ul class="nav">
+			    <li><a href="http://www.iqiyi.com/" target="_blank">奇艺视频&nbsp;&nbsp;</a></li>
+			    <li><a href="http://www.youku.com/" target="_blank">优酷视频</a></li>
+			    <li><a href="http://douban.fm/" target="_blank">豆瓣FM</a></li>
+			    <li><a href="http://www.xiami.com/" target="_blank">虾米音乐</a></li>
+			    <li><a href="http://www.youku.com/" target="_blank"></a></li>
+			    <br/>
+			</ul>
+		</div>
+	
+		<div class="column">
+			<div class="column_title">SHOPPING</div>
+			<ul class="nav">
+				
+				<li><a href="http://www.360buy.com/" target="_blank">京东商城</a></li>
+				<li><a href="http://www.taobao.com/" target="_blank">淘宝网</a></li>
+				<li><a href="http://www.alipay.com/" target="_blank">支付宝</a></li>
+				<li><a href="http://www.10010.com/" target="_blank"></a></li>
+				<br/>
+				<br/>
+			</ul>
+		</div>
+
+		
+		<div class="clear"></div>
+		<div class="sep"></div>
+		
+		<!--
+		<div class="clear"></div>
+		<div class="sep"></div>
+	    -->
+		
+		
+		
+		<div class="clear"></div>
+	</div>
+
+</body>
+</html>
